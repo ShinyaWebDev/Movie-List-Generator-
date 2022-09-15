@@ -69,11 +69,11 @@ function renderCards(data) {
     if(target.tagName === "BUTTON"){
         const url = target.children[0].src.substr(0, 21)
         console.log(target.children[0].src)
-        if(target.children[0].src == `${url}images/plusIcon.svg`){
-            target.children[0].src = `${url}images/minusIcon.svg`
+        if(target.children[0].src == `${url}/images/plusIcon.svg`){
+            target.children[0].src = `${url}/images/minusIcon.svg`
             saveToWatchlist(target.id)
         }else {
-            target.children[0].src = `${url}images/plusIcon.svg`
+            target.children[0].src = `${url}/images/plusIcon.svg`
             removeFromWatchList(target.id)
         }     
     }
