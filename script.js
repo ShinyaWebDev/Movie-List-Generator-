@@ -56,7 +56,7 @@ function renderCards(data) {
                     <div class="title">
                         <h2>${Title}</h2> <h5 class="tomato-rate">${rateContent}</h5>
                     </div>
-                    <h5>${Runtime}</h5> <h5>${Genre}</h5> <button class="addToWatchlist" id="${imdbID}"><img id="${imdbID}" class="card-img" src="/images/plusIcon.svg"/>Watchlist</button>
+                    <h5>${Runtime}</h5> <h5>${Genre}</h5> <button class="addToWatchlist" id="${imdbID}"><img id="${imdbID}" class="card-img" src="images/plusIcon.svg"/>Watchlist</button>
                     <p>${Plot}</p>
                 </div>
             </div>

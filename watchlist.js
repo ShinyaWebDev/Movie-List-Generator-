@@ -55,7 +55,7 @@ function renderOnError(){
     return `
         <div id="placeholder-box" class="placeholder-box">
             <h2 class="placeholder-text">Your watchlist is looking a little empty...</h2>
-            <a href="/index.html"><img src="/images/plusIcon.svg" />Let’s add some movies!</a>
+            <a href="index.html"><img src="images/plusIcon.svg" />Let’s add some movies!</a>
         </div>
     `
 }
