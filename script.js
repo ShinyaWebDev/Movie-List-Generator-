@@ -67,7 +67,7 @@ function renderCards(data) {
  moviesPlaceholder.addEventListener("click", (e) => {
     const target = e.target
     if(target.tagName === "BUTTON"){
-        const url = target.children[0].src.substr(0, 51)
+        const url = target.children[0].src.substr(0, 52)
         console.log(target.children[0].src)
         if(target.children[0].src == `${url}/images/plusIcon.svg`){
             target.children[0].src = `${url}/images/minusIcon.svg`
